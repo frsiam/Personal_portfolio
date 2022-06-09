@@ -57,7 +57,7 @@ body {
 /* ===========  GENERAL STYLES =========== */
 
 
-.container {
+.mycontainer {
   width: var(--container-width-lg);
   margin: 0 auto;
 }
@@ -89,7 +89,7 @@ section>h2 {
   margin-bottom: 3rem;
 }
 
-.text-light {
+.mytext-light {
   color: var(--color-light);
 }
 
@@ -102,7 +102,7 @@ a:hover {
   color: var(--color-white);
 }
 
-.btn {
+.mybtn {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
@@ -113,14 +113,14 @@ a:hover {
   transition: var(--transition);
 }
 
-.btn:hover {
+.mybtn:hover {
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
 }
 
 
-.btn-primary {
+.mybtn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
 }
@@ -134,7 +134,7 @@ img {
 /* =========== Media Queries (Medium divices) =========== */
 
 @media screen and (max-width: 1024px) {
-  .container {
+  .mycontainer {
     width: var(--container-width-md);
   }
 
@@ -147,7 +147,7 @@ img {
 /* =========== Media Queries (Small divices) =========== */
 
 @media screen and(max-width: 600px) {
-  .container {
+  .mycontainer {
     width: var(--container-width-sm);
   }
 
