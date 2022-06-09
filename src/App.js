@@ -14,7 +14,7 @@ function App() {
       <Nav />
       <About />
       <Projects />
-      {/* <Experience /> */}
+      <Experience />
       <Contact />
       {/* <Footer /> */}
     </>
