@@ -5,6 +5,7 @@ import Experience from './components/Experience/Experience';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       <Header />
       <Nav />
       <About />
-      <Experience />
+      <Projects />
+      {/* <Experience /> */}
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

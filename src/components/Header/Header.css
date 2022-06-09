@@ -73,9 +73,9 @@ header {
     }
 }
 
-/* =========== Media Queries (Medium divices) =========== */
+/* =========== Media Queries (Small divices) =========== */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
     header {
         height: 100vh;
         padding-top: 2rem;
