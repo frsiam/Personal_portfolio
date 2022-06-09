@@ -6,7 +6,7 @@ import { BsFacebook } from 'react-icons/bs';
 const HeaderSocial = () => {
     return (
         <div className='header_social'>
-            <a href="https://linkedin.com/mdfrs" target='_blank'>
+            <a href="https://linkedin.com/in/mdfrs" target='_blank'>
                 <BsLinkedin />
             </a>
             <a href="https://github.com/frsiam" target='_blank'>
