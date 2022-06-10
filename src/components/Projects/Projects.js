@@ -7,7 +7,7 @@ import quran from '../../assets/quran-tutor.PNG';
 
 const Projects = () => {
     return (
-        <section>
+        <section id='projects'>
             <h5>My Recent Works</h5>
             <h2>Projects</h2>
             <div className="mycontainer project_container">
@@ -24,7 +24,7 @@ const Projects = () => {
 
                 <article className="project_item">
                     <div className="project_item_image">
-                        <img src={crystal} alt="" />
+                        <img src={fruit} alt="" />
                     </div>
                     <h3>Project-1 Name</h3>
                     <div className="project_item_btn">
@@ -35,7 +35,7 @@ const Projects = () => {
 
                 <article className="project_item">
                     <div className="project_item_image">
-                        <img src={crystal} alt="" />
+                        <img src={quran} alt="" />
                     </div>
                     <h3>Project-1 Name</h3>
                     <div className="project_item_btn">

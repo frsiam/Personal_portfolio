@@ -1,0 +1,27 @@
+footer {
+    height: 4rem;
+    background-color: cornflowerblue;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =========== Media Queries (Medium divices) =========== */
+
+@media screen and (max-width: 1024px) {
+    footer {
+        gap: 0.8rem;
+    }
+}
+
+
+/* =========== Media Queries (Small divices) =========== */
+
+@media screen and (max-width: 600px) {
+
+    footer {
+        height: 8rem;
+        flex-direction: column;
+    }
+}

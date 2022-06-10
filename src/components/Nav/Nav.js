@@ -11,9 +11,12 @@ const Nav = () => {
     return (
         <nav>
             <a href="#" onClick={() => setActiveNave('#')} className={activeNav === '#' ? 'active' : ''}><FaHome /></a>
+
             <a href="#about" onClick={() => setActiveNave('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
+
+            <a href="#projects" onClick={() => setActiveNave('#projects')} className={activeNav === '#projects' ? 'active' : ''}><MdOutlineMiscellaneousServices /></a>
+
             <a href="#experience" onClick={() => setActiveNave('#experience')} className={activeNav === '#experience' ? 'active' : ''}><MdLibraryBooks /></a>
-            <a href="#services" onClick={() => setActiveNave('#services')} className={activeNav === '#services' ? 'active' : ''}><MdOutlineMiscellaneousServices /></a>
             <a href="#contact" onClick={() => setActiveNave('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageRoundedDetail /></a>
         </nav>
     );
