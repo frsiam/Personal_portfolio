@@ -15,7 +15,7 @@ const Projects = () => {
                     <div className="project_item_image">
                         <img src={crystal} alt="" />
                     </div>
-                    <h3>Project-1 Name</h3>
+                    <h3>Crystal Computers</h3>
                     <div className="project_item_btn">
                         <a href="https://github.com/frsiam" className='mybtn' target='_blank'>Github</a>
                         <a href="https://crystal-computers-tech.web.app/" className='mybtn mybtn-primary' target='_blank'>Live Demo</a>
@@ -26,10 +26,10 @@ const Projects = () => {
                     <div className="project_item_image">
                         <img src={fruit} alt="" />
                     </div>
-                    <h3>Project-1 Name</h3>
+                    <h3>Fruit House</h3>
                     <div className="project_item_btn">
                         <a href="https://github.com/frsiam" className='mybtn' target='_blank'>Github</a>
-                        <a href="https://crystal-computers-tech.web.app/" className='mybtn mybtn-primary' target='_blank'>Live Demo</a>
+                        <a href="https://fruit-stall-96376.web.app/" className='mybtn mybtn-primary' target='_blank'>Live Demo</a>
                     </div>
                 </article>
 
@@ -37,10 +37,10 @@ const Projects = () => {
                     <div className="project_item_image">
                         <img src={quran} alt="" />
                     </div>
-                    <h3>Project-1 Name</h3>
+                    <h3>Quran Tutor</h3>
                     <div className="project_item_btn">
                         <a href="https://github.com/frsiam" className='mybtn' target='_blank'>Github</a>
-                        <a href="https://crystal-computers-tech.web.app/" className='mybtn mybtn-primary' target='_blank'>Live Demo</a>
+                        <a href="https://quran-private-tutor.web.app/" className='mybtn mybtn-primary' target='_blank'>Live Demo</a>
                     </div>
                 </article>
             </div>
