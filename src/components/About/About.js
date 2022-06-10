@@ -39,7 +39,7 @@ const About = () => {
                         </article>
                     </div>
                     <p>A Electrical and Electronic Engineering graduate willing to learn new technologies and skills in a short period of time. I want to demonstrate and build my expertise as programmer by seeking the knowledge and skill sets in the areas of new technology, effective and efficient communication and best practice processes. To prove myself as a quick learner and highly energetic person I'm ready to face any challenge and also eager to build myself as a successful teammate.</p>
-                    <a href="#contact" className='mybtn mybtn-primary'>Let's Talk</a>
+                    <a href="#contact" className='mybtn mybtn-primary'>Contact Me</a>
                 </div>
             </div>
         </section>
