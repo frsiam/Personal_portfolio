@@ -35,6 +35,8 @@ code {
   --color-white: #fff;
   /* --color-light: rgb(255, 255, 255, 0.4); */
   --color-light: rgb(195, 236, 241);
+  --color-btn: #1e9bff;
+  --color-btn2: #C70A80;
 
   --transition: all 500ms ease;
 
@@ -118,6 +120,156 @@ a:hover {
   border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
+
+.newbtn {
+  position: relative;
+  background: #444;
+  color: var(--color-primary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+
+.newbtn:hover {
+  letter-spacing: 0.25em;
+  background: var(--color-btn);
+  color: #fff;
+  box-shadow: 0 0 35px var(--color-btn);
+}
+
+.newbtn::before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: #27282c;
+}
+
+.newbtn span {
+  position: relative;
+  z-index: 1;
+}
+
+.newbtn i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.newbtn i::before {
+  content: '';
+  position: absolute;
+  top: -3.5px;
+  left: 80%;
+  width: 10px;
+  height: 5px;
+  border: 2px solid var(--color-primary);
+  background: #27282c;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+.newbtn:hover i::before {
+  width: 20px;
+  left: 20%;
+}
+
+.newbtn i::after {
+  content: '';
+  position: absolute;
+  bottom: -3.5px;
+  left: 20%;
+  width: 10px;
+  height: 5px;
+  border: 2px solid var(--color-primary);
+  background: #27282c;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+.newbtn:hover i::after {
+  width: 20px;
+  left: 80%;
+}
+
+/* ===============  nwe btn 2  =============== */
+.newbtn2 {
+  position: relative;
+  background: #444;
+  color: var(--color-primary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+
+.newbtn2:hover {
+  letter-spacing: 0.25em;
+  background: var(--color-btn2);
+  color: #fff;
+  box-shadow: 0 0 35px var(--color-btn2);
+}
+
+.newbtn2::before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: #27282c;
+}
+
+.newbtn2 span {
+  position: relative;
+  z-index: 1;
+}
+
+.newbtn2 i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.newbtn2 i::before {
+  content: '';
+  position: absolute;
+  top: -3.5px;
+  left: 80%;
+  width: 10px;
+  height: 5px;
+  border: 2px solid var(--color-primary);
+  background: #27282c;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+.newbtn2:hover i::before {
+  width: 20px;
+  left: 20%;
+}
+
+.newbtn2 i::after {
+  content: '';
+  position: absolute;
+  bottom: -3.5px;
+  left: 20%;
+  width: 10px;
+  height: 5px;
+  border: 2px solid var(--color-primary);
+  background: #27282c;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+.newbtn2:hover i::after {
+  width: 20px;
+  left: 80%;
+}
+
+/* ===============  nwe btn 2 end =============== */
+
 
 .mybtn:hover {
   background: var(--color-white);

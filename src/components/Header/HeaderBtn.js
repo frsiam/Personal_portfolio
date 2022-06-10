@@ -4,8 +4,8 @@ import Resume from '../../assets/Resume of Foyzur Rahman Siam.pdf';
 const HeaderBtn = () => {
     return (
         <div className='cta'>
-            <a href={Resume} download className='mybtn'>Download Resume</a>
-            <a href="#contact" className='mybtn mybtn-primary'>Contact Me</a>
+            <a href={Resume} download className='newbtn'><span>Download Resume</span><i></i></a>
+            <a href="#contact" className='newbtn2'><span>Contact Me</span><i></i></a>
         </div>
     );
 };

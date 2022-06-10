@@ -30,8 +30,8 @@
 
 .about_cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: 30% 30% 30%;
+    gap: 10%;
 }
 
 .about_card {
@@ -48,6 +48,52 @@
     border-color: var(--color-primary-variant);
     cursor: default;
 }
+
+/* =====================card 2 start===================== */
+.about_card2 {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 2rem;
+    overflow: hidden;
+    text-align: center;
+    z-index: 10;
+    color: #fff;
+    transition: var(--transition);
+}
+
+.about_card2::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    top: 0;
+    height: 350%;
+    background: linear-gradient(#00ccff, #d400d4);
+    animation: animate 4s linear infinite;
+}
+
+.about_card2::after {
+    content: '';
+    inset: 4px;
+    position: absolute;
+    background: #0e1538;
+    border-radius: 16px;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* =====================card 2 end===================== */
 
 .about_icon {
     color: var(--color-primary);
